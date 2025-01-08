@@ -1,4 +1,6 @@
 import 'package:ecommerce/View/HomePage.dart';
+import 'package:ecommerce/View/LoginEmailPage.dart';
+import 'package:ecommerce/View/OnBoardingPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const OnBoardingpage(),
     );
   }
 }

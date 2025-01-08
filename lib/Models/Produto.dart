@@ -17,4 +17,6 @@ class Produto {
       //Produto(Imageurl: Imageurl, Nome: Nome, PrecoAtual: PrecoAtual, PrectoAnterior: PrectoAnterior)
     ];
   }
+
+   
 }

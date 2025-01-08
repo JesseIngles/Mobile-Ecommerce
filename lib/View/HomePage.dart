@@ -13,11 +13,11 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<Categoria> categorias = [
-    Categoria(Imageurl: 'assets/hoodie.png', Titulo: 'Hoodies'),
-    Categoria(Imageurl: 'assets/shorts.png', Titulo: 'Shorts'),
-    Categoria(Imageurl: 'assets/shoes.png', Titulo: 'Shoes'),
-    Categoria(Imageurl: 'assets/bags.png', Titulo: 'Bag'),
-    Categoria(Imageurl: 'assets/glasses.png', Titulo: 'Acessories')
+      Categoria(Id:1, Imageurl: 'assets/hoodie.png', Titulo: 'Hoodies'),
+      Categoria(Id:2, Imageurl: 'assets/shorts.png', Titulo: 'Shorts'),
+      Categoria(Id:3, Imageurl: 'assets/shoes.png', Titulo: 'Shoes'),
+      Categoria(Id:4, Imageurl: 'assets/bags.png', Titulo: 'Bag'),
+      Categoria(Id:5, Imageurl: 'assets/glasses.png', Titulo: 'Acessories')
   ];
 
   List<Produto> maisVendidos = [
